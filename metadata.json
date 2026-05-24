@@ -1,0 +1,6 @@
+{
+  "name": "Skirts 'n' Rompers",
+  "description": "Expressive pathways for playful spirits - Kids premium clothing and interactive styling assistant",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
