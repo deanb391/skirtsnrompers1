@@ -1,126 +1,85 @@
 import { Product, StylingPersona, QuizQuestion } from "./types";
 
 export const PRODUCTS: Product[] = [
-  // Baby Collection
   {
-    id: "baby-knit-cardigan",
-    name: "Heirloom Knit Cardigan",
-    price: 48,
-    category: "baby",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBj3F-1u1rU9qyjhLPJYl8Y-Ll61JRU6fz_LCVxBSs3A_DJQUTqmMOgtscWBkbj7spKSRU-olrmLg4clfKar_5my6kTY3gF-lskeee_Nb2RGz3LjTfmOz1ivscvivBmoxpjG16Pw8kTJjOu_05cS94cKfBYmt80SV3yKb6zCbebMdMCk3xJ7tKa2CjHTR7lmx8uCm5TFpYJThULlg5vl3x3Iv7UuoDRqJYwRA2-FsJxvdWMFlBIdM16JjYEh9UoXgxUckzbOKuEgaU",
-    description: "Utterly soft organic waffle knit cardigan with wooden toggle buttons. Gentle on sensitive skin and designed to be passed down through generations.",
-    colors: ["Oatmeal", "Warm Sand", "Sage", "Soft Clay"],
-    sizes: ["0-3m", "3-6m", "6-12m", "12-18m"],
-    isOrganic: true
+    "id": "rose-stripe-two-piece-set",
+    "name": "Rose & Stripe Off-Shoulder Set",
+    "price": 24,
+    "category": "toddler",
+    "imageUrl": "http://googleusercontent.com/profile/picture/1",
+    "description": "Adorable two-piece set featuring a black and white striped off-the-shoulder top with a bold rose print, paired with matching black bloomers featuring a cute bow detail.",
+    "colors": ["Black/White"],
+    "sizes": ["12-18m", "18-24m", "2T", "3T"],
+    "isOrganic": false
   },
   {
-    id: "organic-cotton-romper",
-    name: "Playtime Ribbed Romper",
-    price: 36,
-    category: "baby",
-    imageUrl: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=600",
-    description: "Designed for easy changes and maximum standard mobility. Made with premium certified ultra-soft organic cotton in custom pastel color washes.",
-    colors: ["Soft Clay", "Lavender", "Pale Peach", "Sky Blue"],
-    sizes: ["3-6m", "6-12m", "12-18m", "2T"],
-    isOrganic: true
-  },
-
-  // Kids Clothing
-  {
-    id: "creative-dungarees",
-    name: "Artisanal Canvas Dungarees",
-    price: 64,
-    category: "kids",
-    imageUrl: "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&q=80&w=600",
-    description: "Heavy-duty yet ultra-soft cotton denim canvas dungarees with paint-splatter accent details and deep pockets for rock collecting.",
-    colors: ["Denim Blue", "Splatter Cream", "Forest Moss"],
-    sizes: ["3Y", "4Y", "5Y", "6Y", "8Y"],
-    isOrganic: false
+    "id": "ribbed-tank-denim-skort-set",
+    "name": "Ribbed Tank and Denim Skort Set",
+    "price": 28,
+    "category": "toddler",
+    "imageUrl": "http://googleusercontent.com/profile/picture/2",
+    "description": "Casual and comfortable summer set including a soft, ribbed white tank top and a stylish blue denim wrap skort with ruffle trim along the hem.",
+    "colors": ["White/Denim"],
+    "sizes": ["12-18m", "18-24m", "2T", "3T", "4T"],
+    "isOrganic": false
   },
   {
-    id: "retro-terry-polo",
-    name: "Retro Terry-Cloth Polo Set",
-    price: 52,
-    category: "kids",
-    imageUrl: "https://images.unsplash.com/photo-1621452773781-0f99279683c6?auto=format&fit=crop&q=80&w=600",
-    description: "A super cozy, absorbent vintage-inspired matching shirt and shorts set. Pure comfort for beach days and playground adventures.",
-    colors: ["Butter Yellow", "Royal Blue", "Coral Melon"],
-    sizes: ["2T", "3T", "4Y", "6Y"],
-    isOrganic: true
-  },
-
-  // Educational Products
-  {
-    id: "affirmation-journal-kit",
-    name: "Creative Path Journal & Stencil Set",
-    price: 29,
-    category: "educational",
-    imageUrl: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600",
-    description: "Encourage confidence and mindfulness with child-friendly reflection pages, positive stencils, and colorful custom-tipped sketch pencils.",
-    colors: ["Pastel Palette", "Vibrant Primary"],
-    sizes: ["One Size"],
-    isOrganic: false
+    "id": "kids-affirmation-cards",
+    "name": "Kids Affirmation Cards Box Set",
+    "price": 18,
+    "category": "accessories",
+    "imageUrl": "http://googleusercontent.com/profile/picture/3",
+    "description": "A beautiful pink box set containing 132 positive and faith-based affirmation cards designed to build confidence, resilience, and self-esteem in young children.",
+    "colors": ["Pink"],
+    "sizes": ["One Size"],
+    "isOrganic": false
   },
   {
-    id: "wood-arithmetic-blocks",
-    name: "Heirloom Math & Geometry Blocks",
-    price: 45,
-    category: "educational",
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-404e9250afef?auto=format&fit=crop&q=80&w=600",
-    description: "24 solid birch wood blocks with soft-colored modern geometric overlays. Perfect for cognitive synthesis and design play.",
-    colors: ["Rainbow Shoreline", "Earth & Sand"],
-    sizes: ["Classic Wooden Box Set"],
-    isOrganic: true
-  },
-
-  // Inclusive Dolls
-  {
-    id: "diversity-doll-kai",
-    name: "Kai Soft-Sculpture Doll",
-    price: 42,
-    category: "dolls",
-    imageUrl: "https://images.unsplash.com/photo-1559251606-c623743a6d76?auto=format&fit=crop&q=80&w=600",
-    description: "Thoughtfully crafted inclusive plush companion wearing miniatures from our own clothing line. Gentle organic flax linen skin, coily hair texture.",
-    colors: ["Original Outfit"],
-    sizes: ["14 in"],
-    isOrganic: true
+    "id": "floral-butterfly-sleeveless-dress",
+    "name": "Floral & Butterfly Sleeveless Dress",
+    "price": 22,
+    "category": "toddler",
+    "imageUrl": "http://googleusercontent.com/profile/picture/4",
+    "description": "Bright and cheerful sleeveless dress featuring a vibrant print of colorful butterflies and spring flowers on a soft white background.",
+    "colors": ["Multi"],
+    "sizes": ["12-18m", "18-24m", "2T", "3T", "4T"],
+    "isOrganic": false
   },
   {
-    id: "diversity-doll-maya",
-    name: "Maya Soft-Sculpture Doll",
-    price: 42,
-    category: "dolls",
-    imageUrl: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&q=80&w=600",
-    description: "High-quality, lovable modern doll with textured braided crown, wearing the limited edition mustard yellow heirloom romper.",
-    colors: ["Mustard Edition"],
-    sizes: ["14 in"],
-    isOrganic: true
-  },
-
-  // Accessories
-  {
-    id: "linen-boho-bonnet",
-    name: "Sun-Drenched Flax Linen Bonnet",
-    price: 24,
-    category: "accessories",
-    imageUrl: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&q=80&w=600",
-    description: "Airy, lightweight flax linen sun bonnet with soft ties and curved bill. Offers chemical-free UPF 50+ face protection.",
-    colors: ["Oatmeal", "Mustard", "Sage"],
-    sizes: ["0-6m", "6-12m", "12-24m"],
-    isOrganic: true
+    "id": "baby-distressed-denim-jacket",
+    "name": "Distressed Denim Baby Jacket",
+    "price": 32,
+    "category": "baby",
+    "imageUrl": "http://googleusercontent.com/profile/picture/5",
+    "description": "Classic blue denim jacket with trendy distressed details, dual chest pockets, and silver-tone button closures. A versatile layering piece for any tiny wardrobe.",
+    "colors": ["Medium Wash Denim"],
+    "sizes": ["6-9m", "9-12m", "12-18m", "18-24m", "2T"],
+    "isOrganic": true
   },
   {
-    id: "pastel-slouch-socks-trio",
-    name: "Ribbed Slouch Sock Set (Trio)",
-    price: 18,
-    category: "accessories",
-    imageUrl: "https://images.unsplash.com/photo-1582966772680-860e372bb558?auto=format&fit=crop&q=80&w=600",
-    description: "Premium thick cotton ribbed socks which stay on active babies. Set of three gorgeous tones: Olive, Rose, and Ochre.",
-    colors: ["Soft Earth Triad", "Sunset Warmth Triad"],
-    sizes: ["6-12m", "1-2Y", "2-4Y", "4-6Y"],
-    isOrganic: true
+    "id": "bella-tulle-polka-dot-dress",
+    "name": "Bella Polka Dot Tulle Dress",
+    "price": 26,
+    "category": "toddler",
+    "imageUrl": "http://googleusercontent.com/profile/picture/6",
+    "description": "Navy blue dress featuring a cute character graphic named 'Bella' on the bodice, complete with flutter sleeves and a playful polka dot tulle skirt.",
+    "colors": ["Navy Blue"],
+    "sizes": ["12-18m", "18-24m", "2T", "3T", "4T"],
+    "isOrganic": false
+  },
+  {
+    "id": "flower-strap-mary-janes",
+    "name": "Floral Strap Baby Mary Janes",
+    "price": 16,
+    "category": "baby",
+    "imageUrl": "http://googleusercontent.com/profile/picture/7",
+    "description": "Sweet white Mary Jane baby shoes featuring soft soles for early walkers and a delicate strap adorned with faux leather flowers and pearl centers.",
+    "colors": ["White"],
+    "sizes": ["0-3m", "3-6m", "6-12m", "12-18m"],
+    "isOrganic": false
   }
-];
+]
+;
 
 export const STYLING_PERSONAS: StylingPersona[] = [
   {
