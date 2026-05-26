@@ -13,12 +13,12 @@ export const PRODUCTS: Product[] = [
     "isOrganic": false
   },
   {
-    "id": "ribbed-tank-denim-skort-set",
-    "name": "Ribbed Tank and Denim Skort Set",
+    "id": "ribbed-tank-denim-skirt-set",
+    "name": "Ribbed Tank and Denim Skirt Set",
     "price": 28,
     "category": "toddler",
     "imageUrl": "https://d22d06tte8psea.cloudfront.net/contributors/b2a80f2e-8bd8-48b1-9320-1f0592c864d5.jpg",
-    "description": "Casual and comfortable summer set including a soft, ribbed white tank top and a stylish blue denim wrap skort with ruffle trim along the hem.",
+    "description": "Casual and comfortable summer set including a soft, ribbed white tank top and a stylish blue denim wrap skirt with ruffle trim along the hem.",
     "colors": ["White/Denim"],
     "sizes": ["12-18m", "18-24m", "2T", "3T", "4T"],
     "isOrganic": false
