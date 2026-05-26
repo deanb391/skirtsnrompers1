@@ -199,11 +199,11 @@ export default function App() {
           </div>
 
           <h1 className="font-quicksand font-bold text-4xl md:text-5xl lg:text-6xl text-on-surface leading-[1.1]">
-            Helping Kids Dress <span className="text-primary-brand relative inline-block">Boldly<svg className="absolute -bottom-3 left-0 w-full h-3 text-secondary-fixed" preserveAspectRatio="none" viewBox="0 0 100 10"><path d="M0 5 Q 50 15 100 5" fill="none" stroke="currentColor" strokeWidth="5"></path></svg></span>, Learn Confidently &amp; Shine Bright
+            Raising Smart, <span className="text-primary-brand relative inline-block">Stylish<svg className="absolute -bottom-3 left-0 w-full h-3 text-secondary-fixed" preserveAspectRatio="none" viewBox="0 0 100 10"><path d="M0 5 Q 50 15 100 5" fill="none" stroke="currentColor" strokeWidth="5"></path></svg></span> & Successful Kids Through Fashion, Education & Intention
           </h1>
 
           <p className="text-sm md:text-base text-on-surface-variant max-w-xl leading-relaxed">
-            Discover a world where expressive clothing meets playful learning. Premium, certified skin-safe inclusive styles designed for modern families who celebrate every child's unique journey.
+            Clothing, education and styling tips to help your child express themselves boldly and beautifully.
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">
