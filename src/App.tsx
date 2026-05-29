@@ -226,13 +226,16 @@ export default function App() {
         {/* Right Collage Frame */}
         <div className="lg:col-span-5 relative h-[380px] md:h-[480px] w-full rounded-3xl overflow-visible z-10 flex items-center justify-center pt-6 lg:pt-0">
           {/* Collage Frame Image Background */}
-          <div
-            className="absolute inset-2 rounded-[2.5rem] bg-cover bg-center shadow-xl rotate-[3deg] hover:rotate-0 transition-transform duration-500 border-4 border-white"
-            style={{
-              backgroundImage: `url('https://d22d06tte8psea.cloudfront.net/contributors/6383c63f-cfa1-4996-a4cd-7bff926b5b8f.jpg')`
-            }}
-            referrerPolicy="no-referrer"
-          />
+         <div
+  className="absolute -inset-x-4 inset-y-2 rounded-[2.5rem] shadow-xl rotate-[3deg] hover:rotate-0 transition-transform duration-500 border-4 border-white overflow-hidden"
+>
+  <img
+    src="https://d22d06tte8psea.cloudfront.net/contributors/6383c63f-cfa1-4996-a4cd-7bff926b5b8f.jpg"
+    alt="Kids fashion"
+    className="w-full h-full object-cover object-center"
+    referrerPolicy="no-referrer"
+  />
+</div>
           {/* Floating dynamic tags as stickers */}
           <div className="absolute top-8 -left-2 bg-secondary-fixed text-on-secondary-fixed font-bold text-xs px-4 py-1.5 rounded-full rotate-[-12deg] shadow-lg sticker-hover z-20 border-2 border-white">
             🌸 New In!
