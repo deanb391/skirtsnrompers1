@@ -131,7 +131,7 @@ export default function App() {
 
       {/* Floating WhatsApp Message Button */}
       <a
-        href="https://wa.me/15550199?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸"
+        href="https://wa.me/09076596980?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-secondary-brand hover:bg-secondary-container text-white p-4 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2"
@@ -177,7 +177,7 @@ export default function App() {
           </button>
 
           <button
-            onClick={() => window.open("https://wa.me/15550199?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸", "_blank")}
+            onClick={() => window.open("https://wa.me/09076596980?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸", "_blank")}
             className="bg-primary-brand max-md:p-2 max-md:rounded-full bg-primary text-white md:px-5 md:py-2.5 rounded-full font-bold text-[11px] uppercase tracking-wide shadow-sm hover:translate-y-[-1px] active:translate-y-0 transition-all flex items-center gap-1.5"
           >
             <MessageCircle className="w-3.5 h-3.5" />
@@ -529,7 +529,7 @@ export default function App() {
 
                   <div className="pt-4 mt-2">
                     <button
-                      onClick={() => window.open(`https://wa.me/15550199?text=Hello!%20I'd%20like%20to%20inquire%20about%20the%20${encodeURIComponent(p.name)}!%20🌸`, "_blank")}
+                      onClick={() => window.open(`https://wa.me/09076596980?text=Hello!%20I'd%20like%20to%20inquire%20about%20the%20${encodeURIComponent(p.name)}!%20🌸`, "_blank")}
                       className="w-full bg-secondary-brand hover:bg-secondary-container text-white px-4 py-2.5 rounded-full text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-xs active:scale-98"
                     >
                       <MessageCircle className="w-4 h-4" />
@@ -646,7 +646,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => window.open(`https://wa.me/15550199?text=Hello%20Skirts%20'n'%20Rompers!%20I%20am%20interested%20in%20obtaining%20a%20personal%20clothing%20capsule%20style:%20${activePersonaDetail.title}!`, "_blank")}
+                onClick={() => window.open(`https://wa.me/09076596980?text=Hello%20Skirts%20'n'%20Rompers!%20I%20am%20interested%20in%20obtaining%20a%20personal%20clothing%20capsule%20style:%20${activePersonaDetail.title}!`, "_blank")}
                 className="bg-surface border border-outline-variant hover:bg-surface-container text-on-surface font-bold text-xs px-8 py-3.5 rounded-full transition-colors flex items-center justify-center gap-1.5"
               >
                 Request styling info for '{activePersonaDetail.title}'
@@ -752,7 +752,7 @@ export default function App() {
             Parent Support
           </h4>
           <button
-            onClick={() => window.open("https://wa.me/15550199?text=Hello%20Skirts%20'n'%20Rompers!%20I%20have%20a%20question%20regarding%20my%20order%20status.🌸", "_blank")}
+            onClick={() => window.open("https://wa.me/09076596980?text=Hello%20Skirts%20'n'%20Rompers!%20I%20have%20a%20question%20regarding%20my%20order%20status.🌸", "_blank")}
             className="bg-secondary-brand text-white px-5 py-2.5 rounded-full font-bold text-[11px] uppercase tracking-wide hover:translate-y-[-1px] transition-all shadow-md flex items-center gap-1.5"
           >
             <MessageCircle className="w-3.5 h-3.5" />
