@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     "price": 18,
     "category": "accessories",
     "imageUrl": "https://d22d06tte8psea.cloudfront.net/contributors/ff82881f-1bd2-4155-b9fe-6174ba3d8d67.jpg",
-    "description": "A beautiful pink box set containing 132 positive and faith-based affirmation cards designed to build confidence, resilience, and self-esteem in young children.",
+    "description": "A beautiful pink box set containing 30 positive and faith-based affirmation cards designed to build confidence, resilience, and self-esteem in young children.",
     "colors": ["Pink"],
     "sizes": ["One Size"],
     "isOrganic": false
