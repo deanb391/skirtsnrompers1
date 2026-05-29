@@ -428,7 +428,7 @@ export default function App() {
               }`}
           >
             <h3 className="font-quicksand font-bold text-md text-on-surface">Accessories &amp; Extras</h3>
-            <p className="text-[11px] text-on-surface-variant max-w-[130px] mt-1">Ribbed slouch sock sets and flax sun bonnets.</p>
+            <p className="text-[11px] text-on-surface-variant max-w-[130px] mt-1">Plush toys and other merchandise.</p>
             <button className="text-primary-brand font-bold text-xs mt-3 select-none flex items-center gap-1 group-hover:underline">
               <span>View Extras</span>
               <ArrowRight className="w-3.5 h-3.5" />
