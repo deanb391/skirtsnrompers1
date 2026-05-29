@@ -229,7 +229,7 @@ export default function App() {
           <div
             className="absolute inset-2 rounded-[2.5rem] bg-cover bg-center shadow-xl rotate-[3deg] hover:rotate-0 transition-transform duration-500 border-4 border-white"
             style={{
-              backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuBwkipFonQTB8vzgyApYZK_aut_J9VRsOOdl6gtYfkr7_4w0lUaxl4pIIYzfe98-V_h50FiJcqUkjlk8zluX5yAvpLYw-hQZI-uQMDbG-bY3CA_fM2Ff8SXlQhiEft8__JO7ISOJNu4R2gaSgK-tqGxYMtVgbD2HvBnj9RvAw8hGH7K7cPH5i5Ely1BNYGaoA3e7knqTHE19V_A2k8NnpjSKC0nA1FD89ME2t7dD-aowUkXsNGkhiML7c1Xwi-IU1BD2l8FT9qKSx0')`
+              backgroundImage: `url('https://d22d06tte8psea.cloudfront.net/contributors/6383c63f-cfa1-4996-a4cd-7bff926b5b8f.jpg')`
             }}
             referrerPolicy="no-referrer"
           />
