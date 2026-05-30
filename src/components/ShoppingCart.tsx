@@ -48,7 +48,7 @@ export default function ShoppingCart({
     const text = encodeURIComponent(
       `Hello Skirts 'n' Rompers! 🌸\n\nI would love to order these lovely items:\n\n${listText}\n\n*Total:* $${totalPrice}\n\nCould you please help me process my order? Thank you! ✨`
     );
-    window.open(`https://wa.me/15550199?text=${text}`, "_blank");
+    window.open(`https://wa.me/2349076596980?text=${text}`, "_blank");
     setWhatsappSent(true);
   };
 
