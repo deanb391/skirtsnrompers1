@@ -126,7 +126,7 @@ export default function StyleQuizModal({
     const text = encodeURIComponent(
       `Hello Skirts 'n' Rompers! 🌸\n\nI just took the Style Quiz ${infoStr} and got the persona: *${selectedPersona.title}* (${selectedPersona.subtitle})!\n\nI am absolutely in love with these recommended styles:\n${itemsStr}\n\nCould you please pair a custom stylist capsule bag for us? Thank you! ✨`
     );
-    window.open(`https://wa.me/15550199?text=${text}`, "_blank");
+    window.open(`https://wa.me/2349076596980?text=${text}`, "_blank");
   };
 
   const renderBackArrow = () => {
