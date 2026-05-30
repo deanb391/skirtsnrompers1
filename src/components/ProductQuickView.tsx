@@ -123,7 +123,7 @@ export default function ProductQuickView({
               <button
                 onClick={() => {
                   const text = `Hello! I'd like to inquire about the ${product.name}${selectedSize ? ` (Size: ${selectedSize})` : ''}${selectedColor ? ` (Color: ${selectedColor})` : ''}. 🌸`;
-                  window.open(`https://wa.me/15550199?text=${encodeURIComponent(text)}`, "_blank");
+                  window.open(`https://wa.me/2349076596980?text=${encodeURIComponent(text)}`, "_blank");
                 }}
                 className="flex-1 bg-secondary-brand hover:bg-secondary-container text-white py-3 rounded-full font-bold text-xs shadow-md transition-all active:scale-[0.98] flex items-center justify-center gap-2"
               >
