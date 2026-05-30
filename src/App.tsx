@@ -131,7 +131,7 @@ export default function App() {
 
       {/* Floating WhatsApp Message Button */}
       <a
-        href="https://wa.me/09076596980?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸"
+        href="https://wa.me/2349076596980?text=Hello!%20I'd%20like%20to%20consult%20from%20Skirts%20'n'%20Rompers!%20🌸"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-secondary-brand hover:bg-secondary-container text-white p-4 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2"
